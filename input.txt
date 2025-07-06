@@ -3,3 +3,4 @@ Content-Type: text/plain; charset=ISO-2022-JP
 Content-Transfer-Encoding: quoted-printable
 
 =1B$B$3$s$K$A$O@$3&=1B(B
+------=_End
