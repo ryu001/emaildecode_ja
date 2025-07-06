@@ -54,6 +54,7 @@ function decodeJapaneseEmail(content) {
 /**
  * Process email file and extract readable content
  * @param {string} filePath - Path to the email file
+ * @returns {string} - Decoded content
  */
 function processEmailFile(filePath) {
     try {
