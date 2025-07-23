@@ -66,7 +66,7 @@ function processEmailFile(filePath) {
         let inBody = false;
         let charset = 'ISO-2022-JP';
         let encoding = 'quoted-printable';
-
+        console.log(lines);
         // Find where body starts and extract charset/encoding info
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
