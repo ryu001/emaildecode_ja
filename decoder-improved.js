@@ -77,7 +77,7 @@ function processEmailFile(filePath) {
                     charset = charsetMatch[1];
                 }
             }
-
+            console.log(line);
             if (line.includes('Content-Transfer-Encoding:')) {
                 const encodingMatch = line.match(/Content-Transfer-Encoding:\s*(.+)/i);
                 if (encodingMatch) {

@@ -46,3 +46,4 @@ const decodedContent = processEmailFile('input.txt');
 ```bash
 node decoder-improved.js
 ```
+## For revert
